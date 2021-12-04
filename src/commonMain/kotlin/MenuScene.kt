@@ -9,7 +9,6 @@ class MenuScene : Scene() {
     override suspend fun Container.sceneInit() {
         //set BG color
 //        views.clearColor = Colors.BLACK
-        val POSITION_OFFSET = 128
 
         val noTagIcon = resourcesVfs["NoTag.png"].readBitmap()
 
@@ -41,5 +40,16 @@ class MenuScene : Scene() {
                 views.gameWindow.close()
             }
         }
+
+        text("Credits") {
+            position(views.virtualWidth - POSITION_OFFSET, views.virtualHeight - (POSITION_OFFSET/2))
+            textSize = 20.00
+//            color = RGBA(255, 0, 0, 0)
+            onClick {
+                sceneContainer.changeTo<CreditsScene>()
+            }
+        }
+
+
     }
 }

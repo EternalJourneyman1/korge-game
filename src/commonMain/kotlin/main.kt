@@ -18,5 +18,6 @@ object MyFirstModule: Module() {
 	override suspend fun AsyncInjector.configure() {
 		mapPrototype { MenuScene() }
 		mapPrototype { PlayScene() }
+		mapPrototype { CreditsScene() }
 	}
 }
