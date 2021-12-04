@@ -1,9 +1,9 @@
-# Korge Hello World and Template
+# NoTag: Not Another Text Adventure Game 
 
-This is a Hello World and Template for the KorGe game engine. Using gradle with kotlin-dsl.
+This is a KorGe game engine. Using gradle with kotlin-dsl.
 You can open this project in IntelliJ IDEA by opening the folder or the build.gradle.kts file.
 
-You can find this template at GitHub: <https://github.com/korlibs/korge-hello-world>
+You can find this template at GitHub: <https://github.com/EternalJourneyman1/korge-game>
 
 For Windows, change all the `./gradlew` for `gradlew.bat`.
 
@@ -47,7 +47,7 @@ You can run your tests using Node.JS by calling `jsTest` or in a headless chrome
 
 Using gradle tasks on the terminal:
 
-```bash
+```bash`
 ./gradlew linkDebugExecutableMacosX64         # Outputs to /build/bin/macosX64/mainDebugExecutable/main.kexe
 ./gradlew linkDebugExecutableLinuxX64         # Outputs to /build/bin/linuxX64/mainDebugExecutable/main.kexe
 ./gradlew linkDebugExecutableMingwX64         # Outputs to /build/bin/mingwX64/mainDebugExecutable/main.exe
